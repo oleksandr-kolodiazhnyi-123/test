@@ -3,10 +3,10 @@ Pytest configuration and shared fixtures.
 """
 
 import os
-import django
-from django.conf import settings
 
+import django
 import pytest
+from django.conf import settings
 from django.contrib.auth.models import User
 from rest_framework.test import APIClient
 
